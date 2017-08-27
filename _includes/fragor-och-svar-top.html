@@ -1,0 +1,21 @@
+<h1 class="block-title">Vanligaste frågorna</h1>
+<div class="block no-padding">
+    <div class="list-group">
+        {% for post in site.posts %}
+            {% if post.categories contains 'qatop' and post.tags contains 'sv' %}
+        
+                <a class="list-group-item" href="{{ post.url | prepend: site.baseurl }}">
+                    {{ post.title | escape }}
+                    <span class="glyphicon glyphicon-menu-right pull-right"></span>
+                </a>
+
+            {% endif %}
+        {% endfor %}
+
+        <a class="showAll" href="/sv/fragor-och-svar/">
+            Visa alla frågor
+            <span class="glyphicon glyphicon-menu-right pull-right"></span>
+        </a>
+
+    </div>
+</div>

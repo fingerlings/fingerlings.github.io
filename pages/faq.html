@@ -1,0 +1,27 @@
+---
+layout: default-en
+
+namespace: faq
+
+permalink: /en/faq/
+---
+
+<h1 class="block-title">Questions & Answers</h1>
+<div class="block no-padding">
+    <div class="list-group">
+        {% for post in site.posts %}
+            {% if post.categories contains 'qa' and post.tags contains 'en' %}
+                <a class="list-group-item" href="{{ post.url | prepend: site.baseurl }}">
+                    {{ post.title | escape }}
+                    <span class="glyphicon glyphicon-menu-right pull-right"></span>
+                </a>
+
+            {% endif %}
+        {% endfor %}
+
+        <p>
+            We are working as hard as we can to add more questions and answers.
+        </p>
+
+    </div>
+</div>

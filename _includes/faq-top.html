@@ -1,0 +1,21 @@
+<h1 class="block-title">Most asked questions</h1>
+<div class="block no-padding">
+    <div class="list-group">
+        {% for post in site.posts %}
+            {% if post.categories contains 'qatop' and post.tags contains 'en' %}
+        
+                <a class="list-group-item" href="{{ post.url | prepend: site.baseurl }}">
+                    {{ post.title | escape }}
+                    <span class="glyphicon glyphicon-menu-right pull-right"></span>
+                </a>
+
+            {% endif %}
+        {% endfor %}
+
+        <a class="showAll" href="/en/faq/">
+            Show all questions
+            <span class="glyphicon glyphicon-menu-right pull-right"></span>
+        </a>
+
+    </div>
+</div>

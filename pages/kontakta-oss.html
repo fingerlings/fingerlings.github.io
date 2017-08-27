@@ -1,0 +1,38 @@
+---
+layout: default
+
+permalink: /sv/kontakta-oss/
+---
+
+<h1 class="block-title">Kontakta oss</h1>
+
+<div class="block">
+    <h3 class="sub-title">Skicka oss ett meddelande</h3>
+    <p>Vi är glada för all feedback vi kan få. Skicka oss ett meddelande och berätta vad du tycker.</p>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="block">
+                <form method="POST" action="https://formspree.io/fingerlings.info@gmail.com">
+                    <div class="form-group">
+                        <label for="email">E-post</label>
+                        <input type="email" name="email" class="form-control input-lg" placeholder="Fyll gärna i denna om du vill att vi skall svara dig">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Namn</label>
+                        <input type="text" name="namn" class="form-control input-lg" placeholder="Berätta gärna vad du heter så vi vet vem vi svarar :)">
+                    </div>
+                    <div class="form-group">
+                        <label>Meddelande</label>
+                        <textarea name="message" rows="10" class="form-control input-lg" placeholder="Skriv ditt meddelande här..."></textarea>
+                    </div>
+
+                    <input type="hidden" name="_subject" value="kontakta oss" />
+                    <input type="hidden" name="_next" value="http://www.hatchimals.se/thankyou/" />
+
+                    <button type="submit" class="btn btn-lg btn-primary">Skicka</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+---
+layout: default-en
+
+permalink: /en/contact-us/
+---
+
+<h1 class="block-title">Contact us</h1>
+
+<div class="block">
+    <h3 class="sub-title">Send us a message</h3>
+    <p>We are working as hard as we can to add more questions and answers.</p>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="block">
+                <form method="POST" action="https://formspree.io/fingerlings.info@gmail.com">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="form-control input-lg" placeholder="Please fill your email so we know where to reply">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="namn" class="form-control input-lg" placeholder="Please fill your name so we know to who we are replying :)">
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea name="message" rows="10" class="form-control input-lg" placeholder="Type your message here..."></textarea>
+                    </div>
+
+                    <input type="hidden" name="_subject" value="contact us" />
+                    <input type="hidden" name="_next" value="http://www.hatchimals.se/thankyou/" />
+
+                    <button type="submit" class="btn btn-lg btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

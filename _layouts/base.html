@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+    <meta name="keywords" content="fingerlings, fingerling, leksak, gosedjur, årets julklapp, årets leksak, årets julklapp 2017, årets leksak 2017" />
+    <meta name="description" content="Allt du behöver veta om Fingerlings" />
+
+    <meta name="verification" content="eafc7f0477a376ccc98ed84f7a1c6981" />
+
+    {% seo %}
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-language" content="sv">
+    
+    <link rel="alternate" href="http://www.fingerlings.info" hreflang="en" />
+
+<!--    <link rel="alternate" hreflang="sv-se" href="http://hatchimals.se/" />-->
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+      
+    <link rel="stylesheet" href="/css/site.css" />
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+      <script src="/javascript/site.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+        <main>
+
+            <div id="logo">
+                <a href="{{site.baseurl}}/sv/">Fingerlings</a>
+            </div>
+
+            <a href="#" id="menu-open">
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </a>
+            <div id="menu">
+                <a href="#" id="menu-close">
+                    <span class="glyphicon glyphicon-remove"></span>
+                </a>
+                {% include meny.html %}
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        {% include meny.html %}
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

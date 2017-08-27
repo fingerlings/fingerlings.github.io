@@ -1,0 +1,30 @@
+global:
+  swedish: Svenska
+  english: Engelska
+  family: familjen
+  readon: Läs om
+  buyat: Köp på
+  mostasked: Vanligaste frågorna
+  allasked: Alla frågor och svar
+  showallquestions: Visa alla Frågor och svar
+  questionsadditional: Vi försöker fylla på med fler frågor och svar allt eftersom. Vi gör allt vi kan för att så snabbt som möjligt ha information på svenska för Fingerlings.
+pages:
+  start: Start
+  contact: Kontakt
+  about: Om oss
+  faq: Frågor och svar
+contact:
+  email: E-post
+  emailSub: Fyll gärna i denna om du vill att vi skall svara dig
+  name: Namn
+  nameSub: Berätta gärna vad du heter så vi vet vem vi svarar :)
+  message: Meddelande
+  messageSub: Skriv ditt meddelande här...
+  buttonSend: Skicka
+  pageTitle: Kontakta oss
+  pageSubTitle: Skicka oss ett meddelande
+  pageDescription: Vi är glada för all feedback vi kan få. Skicka oss ett meddelande och berätta vad du tycker.
+  
+about:
+  pageTitle: Lite fakta om fingerlings.se
+  pageText: Allt började i augusti 2017. Vi var ett gäng ute i världen för att scanna av marknaden för leksaker. Lite visste vi om leksaken Fingerlings som skulle slå världen med storm. När vi dök på Fingerlings för första gången märkte vi direkt att succén var ett faktum. Så fort vi fick syn på de små krabaterna kände vi alla att detta måste vi bara testa. De urgulliga djuren insåg vi skulle bli en total succé, varför vi valde att dra igång en sajt om dem och informera Sverige.
