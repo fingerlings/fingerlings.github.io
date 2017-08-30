@@ -17,7 +17,7 @@ title: Fingerlings
 email: fingerlings.info@gmail.com
 description: Fingerlings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://fingerlings.info" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://fingerlings.info" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  fingerlings
 
 # Build settings
